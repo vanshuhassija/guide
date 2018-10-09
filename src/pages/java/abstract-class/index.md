@@ -46,3 +46,20 @@ Car carObj = new Car();  // valid
 Bike bikeObj = new Bike();  // valid
 ```
 
+## Constructor in an Abstract Class
+
+Yes, you can define a constructor in an abstract class if you are in one of these situations:
+
+You want to perform some initialization before the instantiation of a subclass actually takes place.
+
+You have defined final fields in the abstract class but you did not initialize them in the declaration itself, in this case, you MUST have a constructor to initialize these fields.
+
+Points to remember:
+
+You can define more than one constructor (with different arguments).
+
+You can define all your constructors protected (making them public is pointless anyway).
+
+Your subclass constructors can call one constructor of the abstract class. It may even have to call it (if there is no no-arg constructor in the abstract class).
+
+If you don't define a constructor, then the compiler will automatically generate one for you (this one is public, has no argument, and does nothing).
