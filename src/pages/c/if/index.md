@@ -36,7 +36,7 @@ Note that the `else` and `else if` sections are not required, while `if` is mand
 ```
 #include <stdio.h>
 
-int main () {
+void main () {
 
    // Local variable definition
    int a = 10;
@@ -53,7 +53,6 @@ int main () {
 
    printf("Value of a is : %d\n", a);
 
-   return 0;
 }
 ```
 
