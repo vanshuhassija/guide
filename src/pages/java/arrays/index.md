@@ -92,6 +92,14 @@ int[] a = {4, 5, 6, 7, 8}; // declare array
 System.out.println(a.length); //prints 5
 ```
 
+## Converting a string to char array
+To convert a string into char array 
+use String.toCharArray() function.
+```java
+String str = "This Is Test";
+char[] stringToCharArray = str.toCharArray();
+```
+
 ## Code snippets of above syntax:
 ```java
 list[1] = 3; // now, if you access the array like above, it will output 3 rather than 2
