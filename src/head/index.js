@@ -3,6 +3,6 @@ import styleSheets from './styleSheets';
 
 const metaAndStyleSheets = meta
   .concat(styleSheets)
-  .map((element, i) => ({ ...element, key: i }));
+  .map((element, j) => ({ ...element, key: j }));
 
 export default metaAndStyleSheets;
