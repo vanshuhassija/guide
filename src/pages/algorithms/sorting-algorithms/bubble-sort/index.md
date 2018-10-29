@@ -84,6 +84,7 @@ public class bubble-sort {
         int n = arr.length;
         int temp = 0;
          for(int i=0; i < n; i++){
+	 	//this loop may be run till i even
                  for(int x=1; x < (n-i); x++){
                           if(arr[x-1] > arr[x]){
                                  temp = arr[x-1];
