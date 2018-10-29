@@ -6,6 +6,7 @@ title: Arrays
 Before trying to explain what arrays are, let's look at the code where we want to print 10 numbers given by the user in reverse order.
 ```C
 #include <stdio.h>
+#include<math.h>
 int main(void) {
     int a, b, c, d, e, f, g, i, j, k;
     scanf("%d", &a);
